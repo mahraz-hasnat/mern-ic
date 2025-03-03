@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registration Form</h1>
+      <form action="#" method="post">
+        <div class="form-body">
+          <div class="left-side">
+            <div class="input-field">
+              <label for="district"
+                >District (<small>
+                  Institute District: Where you want to do your course </small
+                >)*</label
+              >
+              <br />
+              <select name="district" id="district" required>
+                <option disabled selected value="none">--Select One--</option>
+                <option value="dhaka">Dhaka</option>
+                <option value="khulna">Khulna</option>
+                <option value="Vola">Vola</option>
+              </select>
+            </div>
+            <div class="input-field">
+              <label for="course">Course*</label> <br />
+              <select name="course" id="course" required>
+                <option disabled selected value="none">--Select One--</option>
+                <option value="web-dev">Web Development</option>
+                <option value="mern">MERN</option>
+                <option value="gfx-design">Grafics Design</option>
+              </select>
+            </div>
+            <div class="input-field">
+              <label for="student-name">Student Name*</label> <br />
+              <input type="text" name="name" id="student-name" required />
+            </div>
+            <div class="input-field">
+              <label for="father-name">Father Name*</label> <br />
+              <input type="text" name="name" id="father-name" required />
+            </div>
+            <div class="input-field">
+              <label for="mother-name">Mother Name*</label> <br />
+              <input type="text" name="name" id="mother-name" required />
+            </div>
+            <div class="input-field">
+              <label for="dob">Date of Birth*</label> <br />
+              <input type="date" name="dob" id="dob" required />
+              <!-- <table>
+                <thead>
+                  <tr>
+                    <th for="day">Day:</th>
+                    <th for="month">Month:</th>
+                    <th for="year">Year:</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="date" name="Day" id="day" min="1" max="31" placeholder="Day" required /></td>
+                        <td><input type="month" name="Month" id="month" min="1" max="12" placeholder="Month" required /></td>
+                        <td><input type="date" name="Year" id="year" min="1900" max="2100" placeholder="Year" required /></td>
+                    </tr>
+                </tbody>
+              </table> -->
+              <!-- <input type="text" name="name" id="mother-name" required /> -->
+            </div>
+            <div class="input-field-radio">
+              <p>Gender*</p>
+              <input value="male" type="radio" name="gender" id="male" />
+              <label for="male">Male</label>
+              <input value="female" type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+            </div>
+            <div class="input-field-radio">
+              <p>Physically Handicapped*</p>
+              <input value="y" type="radio" name="handicapped" id="yes" />
+              <label for="yes">Yes</label>
+              <input value="n" type="radio" name="handicapped" id="no" />
+              <label for="no">No</label>
+            </div>
+            <br />
+            <div class="input-field">
+              <label for="email">Email*</label> <br />
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="input-field">
+              <label for="phone">Phone*</label> <br />
+              <input type="text" name="phone" id="phone" required />
+            </div>
+            <div class="input-field">
+              <label for="nid">NID*</label> <br />
+              <input type="text" name="nid" id="nid" required />
+            </div>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="right-side">
+            <div class="input-field">
+              <label for="id">Identification Type*</label> <br />
+              <select name="id" id="id" required>
+                <option disabled selected value="none">--Select One--</option>
+                <option value="birth-certificate">Birth Certificate</option>
+                <option value="national-id">National ID</option>
+              </select>
+            </div>
+            <div class="input-field">
+              <label for="id-number">Identification Number*</label> <br />
+              <input type="text" name="id-number" id="id-number" required />
+            </div>
+            <div class="input-field">
+              <label for="address">Address*</label> <br />
+              <input type="text" name="address" id="address" required />
+            </div>
+            <div class="input-field">
+              <label for="district">Home District*</label> <br />
+              <select name="id" id="district" required>
+                <option disabled selected value="none">--Select One--</option>
+                <option value="dhaka">Dhaka</option>
+                <option value="khulna">Khulna</option>
+              </select>
+            </div>
+            <div class="input-field">
+              <label for="upzila">Upzila*</label> <br />
+              <select name="id" id="upzila" required>
+                <option disabled selected value="none">--Select One--</option>
+                <option value="khilgaon">Khilgaon</option>
+                <option value="banani">Banani</option>
+              </select>
+            </div>
+            <div class="input-field">
+              <label for="house"
+                >Village/House No./Road No./Other Alternative*</label
+              >
+              <br />
+              <input type="text" name="name" id="house" required />
+            </div>
+            <div class="input-field">
+              <label for="post">Post Office*</label> <br />
+              <input type="text" name="name" id="post" required />
+            </div>
+            <div class="input-field">
+              <label for="education"
+                >Educational Qualification* (<small>Higher Level</small
+                >)*</label
+              >
+              <br />
+              <select name="education" id="education" required>
+                <option disabled selected value="none">--Select One--</option>
+                <option value="hsc">HSC</option>
+                <option value="bsc">B.Sc</option>
+                <option value="msc">M.Sc</option>
+              </select>
+            </div>
+            <div class="input-field-radio">
+              <p>Have any computer?*</p>
+              <input value="y" type="radio" name="computer?" id="c-yes" />
+              <label for="c-yes">Yes</label>
+              <input value="n" type="radio" name="computer?" id="c-no" />
+              <label for="c-no">No</label>
+            </div>
+            <br />
+            <div class="input-field">
+              <label for="photograph">Photograph*</label><br />
+              <input type="file" id="photograph" name="photo" />
+            </div>
+            <div class="input-field">
+              <label for="signature">Signature*</label><br />
+              <input type="file" id="signature" name="signature" />
+            </div>
+          </div>
+        </div>
+
+        <button class="submit-button" type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
