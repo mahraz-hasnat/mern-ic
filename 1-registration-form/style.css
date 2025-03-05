@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-color: #2c2c2c;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 0;
+  color: rgb(186, 183, 178);
+}
+
+.input-field select,
+.input-field input {
+  width: 15rem;
+}
+
+.input-field {
+  padding-bottom: 0.5rem;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+}
+
+.left-side {
+  margin-right: 15px;
+}
+
+.vertical-line {
+  border-left: 1px solid #e8cece;
+  height: 100%;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
