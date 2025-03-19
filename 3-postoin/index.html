@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Position</title>
+  </head>
+  <body>
+    <!-- Header and Hero Area -->
+    <sectioin class="header-hero-area">
+      <!-- Header section. Logo + NavBar + Search, Cart -->
+      <header class="header-area">
+        <div class="header">
+          <div class="logo">
+            <img src="../images/task-3/logo_coffe.svg" alt="cafe street logo" />
+          </div>
+          <nav class="nav-list">
+            <ul class="nav-list-items">
+              <li class="nav-list-item"><a href="#">About</a></li>
+              <li class="nav-list-item"><a href="#">Our Product</a></li>
+              <li class="nav-list-item"><a href="#">Delivery</a></li>
+            </ul>
+          </nav>
+          <div class="toolbar">
+            <!-- search -->
+            <div class="search-area">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Search" />
+            </div>
+
+            <!-- cart -->
+            <div class="shopping-cart">
+              <i class="fas fa-shopping-cart"></i>
+              <!-- <span>0</span> -->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero content and image -->
+      <section class="hero-area">
+        <div class="hero-section">
+          <!-- hero left content -->
+          <div class="hero-content">
+            <h1>Enjoy your coffee before your activity</h1>
+            <p>
+              Boost your productivity and build your mood with a glass of coffee
+              in the morning
+            </p>
+            <div class="btn-order-now">
+              <a href="#">Order Now</a>
+              <div class="circle-bg">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </div>
+            <div class="more-menu"></div>
+          </div>
+
+          <!-- hero right image and positoned items -->
+          <div class="hero-image-area">
+            <!-- positioned items-->
+            <div class="positioned-items"><p>Cappacinu</p></div>
+            <div class="positioned-items">
+              <p>4.8</p>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="positioned-items"><p>18k</p></div>
+
+            <!-- images -->
+            <div class="img-bg-circle">
+              <img
+                class="hero-image"
+                id="hero-image-bg"
+                src="../images/task-3/Exclude.png"
+                alt="Coffe Mug"
+              />
+              <img
+                class="hero-image"
+                id="hero-image"
+                src="../images/task-3/coffe-mug-filled.png"
+                alt="Filled Coffe Mug"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular Items now -->
+      <section class="featured-items-area">
+        <div class="featured-items"></div>
+      </section>
+    </sectioin>
+  </body>
+</html>
