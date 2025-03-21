@@ -1,0 +1,28 @@
+/* bg */
+.header-hero-area {
+  background-color: #ff912b;
+}
+/* Header logo */
+.header {
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* navbar */
+.nav-list-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* header toolbar */
