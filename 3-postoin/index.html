@@ -19,88 +19,103 @@
   </head>
   <body>
     <!-- Header and Hero Area -->
-    <sectioin class="header-hero-area">
-      <!-- Header section. Logo + NavBar + Search, Cart -->
-      <header class="header-area">
-        <div class="header">
-          <div class="logo">
-            <img src="../images/task-3/logo_coffe.svg" alt="cafe street logo" />
-          </div>
-          <nav class="nav-list">
-            <ul class="nav-list-items">
-              <li class="nav-list-item"><a href="#">About</a></li>
-              <li class="nav-list-item"><a href="#">Our Product</a></li>
-              <li class="nav-list-item"><a href="#">Delivery</a></li>
-            </ul>
-          </nav>
-          <div class="toolbar">
-            <!-- search -->
-            <div class="search-area">
-              <i class="fas fa-search"></i>
-              <input type="text" placeholder="Search" />
+    <div class="bg-color">
+      <sectioin class="header-hero-area">
+        <!-- Header section. Logo + NavBar + Search, Cart -->
+        <header class="header-area">
+          <div class="header">
+            <div class="logo">
+              <a href="#"
+                ><img
+                  src="../images/task-3/logo_coffe.svg"
+                  alt="cafe street logo"
+              /></a>
             </div>
+            <!-- heeader nav -->
+            <nav class="nav-list">
+              <ul class="nav-list-items">
+                <li class="nav-list-item">
+                  <a href="#"><span class="colored-text">About</span></a>
+                </li>
+                <li class="nav-list-item"><a href="#">Our Product</a></li>
+                <li class="nav-list-item"><a href="#">Delivery</a></li>
+              </ul>
+            </nav>
 
-            <!-- cart -->
-            <div class="shopping-cart">
-              <i class="fas fa-shopping-cart"></i>
-              <!-- <span>0</span> -->
-            </div>
-          </div>
-        </div>
-      </header>
+            <!-- Header Toolbar (Search and Cart) -->
+            <div class="toolbar">
+              <!-- search -->
+              <label class="search-area">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Cappuccino" />
+              </label>
 
-      <!-- Hero content and image -->
-      <section class="hero-area">
-        <div class="hero-section">
-          <!-- hero left content -->
-          <div class="hero-content">
-            <h1>Enjoy your coffee before your activity</h1>
-            <p>
-              Boost your productivity and build your mood with a glass of coffee
-              in the morning
-            </p>
-            <div class="btn-order-now">
-              <a href="#">Order Now</a>
-              <div class="circle-bg">
-                <i class="fas fa-shopping-cart"></i>
+              <!-- cart -->
+              <div class="shopping-cart">
+                <a href="" rel="noopener noreferrer"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
               </div>
             </div>
-            <div class="more-menu"></div>
           </div>
+        </header>
 
-          <!-- hero right image and positoned items -->
-          <div class="hero-image-area">
-            <!-- positioned items-->
-            <div class="positioned-items"><p>Cappacinu</p></div>
-            <div class="positioned-items">
-              <p>4.8</p>
-              <i class="fas fa-star"></i>
+        <!-- Hero content and image -->
+        <section class="hero-area">
+          <div class="hero-section">
+            <!-- hero left content -->
+            <div class="hero-content">
+              <h1>
+                Enjoy your <span class="colored-text">coffee</span> before your
+                activity
+              </h1>
+              <p>
+                Boost your productivity and build your mood with a glass of
+                coffee in the morning
+              </p>
+              <div class="btn-order-now">
+                <a href="#">Order Now</a>
+                <div class="circle-bg">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+              </div>
+              <div class="more-menu"></div>
             </div>
-            <div class="positioned-items"><p>18k</p></div>
 
-            <!-- images -->
-            <div class="img-bg-circle">
-              <img
-                class="hero-image"
-                id="hero-image-bg"
-                src="../images/task-3/Exclude.png"
-                alt="Coffe Mug"
-              />
-              <img
-                class="hero-image"
-                id="hero-image"
-                src="../images/task-3/coffe-mug-filled.png"
-                alt="Filled Coffe Mug"
-              />
+            <!-- hero right image and positoned items -->
+            <div class="hero-image-area">
+              <!-- positioned items-->
+              <div class="positioned-items"><p>Cappacinu</p></div>
+              <div class="positioned-items">
+                <p>4.8</p>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="positioned-items"><p>18k</p></div>
+
+              <!-- images -->
+              <div class="img-bg-circle">
+                <img
+                  class="hero-image"
+                  id="hero-image-bg"
+                  src="../images/task-3/Exclude.png"
+                  alt="Coffe Mug"
+                />
+                <img
+                  class="hero-image"
+                  id="hero-image"
+                  src="../images/task-3/coffe-mug-filled.png"
+                  alt="Filled Coffe Mug"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Popular Items now -->
-      <section class="featured-items-area">
-        <div class="featured-items"></div>
-      </section>
-    </sectioin>
+        <!-- Popular Items now -->
+        <section class="featured-items-area">
+          <div class="featured-items"></div>
+        </section>
+      </sectioin>
+    </div>
   </body>
 </html>
