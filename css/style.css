@@ -34,4 +34,6 @@ body {
 
 .task-list-items a:hover {
   color: tomato;
+  /* want to add transition effect */
+  transition: all ease 0.3s;
 }
