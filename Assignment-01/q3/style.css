@@ -1,0 +1,51 @@
+:root {
+  background-color: #212121;
+  font-weight: 1.5rem;
+}
+
+.navbar {
+  background-color: tomato;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+.dropdown-list-item {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  display: none;
+}
+
+.dropdown-list-item:hover {
+  background-color: #333;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.has-child:hover .dropdown-list-item {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.has-child {
+  transition: all 0.3s ease-in-out;
+}
